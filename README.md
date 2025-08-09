@@ -1,19 +1,19 @@
 # PlantDoctor App Screenshots
 
 ## Splash Screen
-![Splash Screen](ScreenShots/SplashScreen.png)
+<img src="ScreenShots/SplashScreen.png" alt="Splash Screen" width="400"/>
 
 ## Home Screen
-![Home Screen](ScreenShots/HomeScreen.png)
+<img src="ScreenShots/HomeScreen.png" alt="Home Screen" width="400"/>
 
 ## Result Screen
-![Result Screen](ScreenShots/ResultScreen.jpg)
+<img src="ScreenShots/ResultScreen.jpg" alt="Result Screen" width="400"/>
 
 ## Tips Screen
-![Tips Screen](ScreenShots/TipsScreen.png)
+<img src="ScreenShots/TipsScreen.png" alt="Tips Screen" width="400"/>
 
 ## About Screen
-![About Screen](ScreenShots/AboutScreen.png)
+<img src="ScreenShots/AboutScreen.png" alt="About Screen" width="400"/>
 
 ## History Screen
-![History Screen](ScreenShots/HistoryScreen.png)
+<img src="ScreenShots/HistoryScreen.png" alt="History Screen" width="400"/>
