@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leaf_background"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/homeLogo"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/logo"
+            android:background="@drawable/rounded_image"
+            android:contentDescription="App Logo"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true" />
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/homeAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PlantDoctor"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_marginTop="8dp" />
+
+        <!-- Spacing -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <!-- Preview Image -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            android:layout_gravity="center"
+            android:clipChildren="true">
+            <ImageView
+                android:id="@+id/previewImage"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Captured Image"
+                android:background="@drawable/rounded_border" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Spacing -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <!-- Result Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/resultCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:padding="0dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/light_green"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:id="@+id/predictionLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disease: Loading..."
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/dark_green"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/confidenceLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confidence: "
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/suggestionLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Suggestions will appear here"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/rounded_card"
+                    android:padding="12dp"
+                    android:layout_marginBottom="24dp" />
+            </LinearLayout>
+            <!-- Speaker Icon at Top-Right -->
+            <ImageButton
+                android:id="@+id/speakButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Speak"
+                android:src="@drawable/ic_speaker"
+                app:tint="@color/dark_green" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Capture Again Button -->
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capture Again"
+            android:backgroundTint="@color/dark_green"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

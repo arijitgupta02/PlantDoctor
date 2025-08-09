@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tipsSectionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- 🌱 General Care Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌱 General Care Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/general1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green" />
+    <TextView android:id="@+id/general2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/general3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- 💧 Watering Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="💧 Watering Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#0277BD"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/watering1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/watering2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/watering3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- ☀️ Sunlight Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☀️ Sunlight Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFA000"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/sunlight1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/sunlight2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- 🌾 Soil Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌾 Soil Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/soil1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/soil2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- 🌡️ Temperature Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌡️ Temperature Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#D84315"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/temp1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/temp2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- 🧪 Fertilization Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🧪 Fertilization Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/fertilizer1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/fertilizer2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- 🦠 Disease Prevention Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🦠 Disease Prevention Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#C62828"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/disease1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/disease2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/disease3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- 🔍 Signs to Look Out For -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🔍 Signs to Look Out For"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/signs1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/signs2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- ✂️ When to Prune / Isolate -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✂️ When to Prune / Isolate"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00897B"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/prune1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/prune2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- 🌳 Plant Category Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌳 Plant Category Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/category1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/category2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/category3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- ⛅ Seasonal Tips -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⛅ Seasonal Tips"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#039BE5"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/season1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/season2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/season3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+    <!-- 📋 Do’s and Don’ts -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📋 Do’s &amp; Don’ts"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00695C"
+        android:layout_marginTop="16dp" />
+    <TextView android:id="@+id/dos1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+    <TextView android:id="@+id/donts1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/dark_green"/>
+
+</LinearLayout>

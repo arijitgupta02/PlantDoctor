@@ -1,0 +1,11 @@
+<resources>
+    <color name="colorPrimary">#2E7D32</color> <!-- Purple 500 -->
+    <color name="colorPrimaryVariant">#3700B3</color> <!-- Purple 700 -->
+    <color name="colorSecondary">#03DAC5</color> <!-- Teal 200 -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- White -->
+    <color name="card_bg_color">#B9F6CA</color>
+    <color name="colorOnSecondary">#000000</color> <!-- Black -->
+    <color name="light_green">#E8F5E9</color>
+    <color name="dark_green">#2E7D32</color>
+
+</resources>

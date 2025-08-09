@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/leaf_background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- 🌿 App Logo and Name -->
+        <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:layout_marginTop="8dp"
+            android:contentDescription="App Logo"
+            android:background="@drawable/rounded_image"
+            android:clipToOutline="true" />
+
+        <TextView
+            android:id="@+id/homeAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PlantDoctor"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:layout_below="@id/homeLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.0"
+            android:textColor="#4CAF50"
+            android:fontFamily="monospace"
+            android:layout_marginTop="4dp" />
+
+        <!-- 🪴 App Info Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#E8F5E9">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🌱 About PlantDoctor"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#2E7D32"
+                    android:fontFamily="monospace" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PlantDoctor is an AI-powered plant disease detection app. Just capture a photo of a leaf, fruit, or vegetable and get instant diagnosis with care tips. It also gives location-based smart plant care tips using live weather data."
+                    android:layout_marginTop="6dp"
+                    android:textSize="12sp"
+                    android:textColor="#2E7D32"
+                    android:fontFamily="monospace" />
+
+                <!-- Features -->
+                <TextView
+                    android:layout_width="187dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="monospace"
+                    android:text="🌿 Key Features:\n\n"
+                    android:textColor="#2E7D32"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• AI-based disease detection\n• Weather-based care tips\n• Seasonal plant care alerts \n• Voice guidance (TTS)\n• Dark image detection warning\n• Beautiful animated UI\n• History tracking of scans"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#2E7D32"
+                    android:fontFamily="monospace"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- 👨‍💻 Developer Info Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="#1B1F32">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👨‍💻 About the Developer"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:textColor="#FF4081"
+                    android:fontFamily="monospace" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arijit Gupta"
+                    android:textStyle="bold"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#FF4081"
+                    android:textSize="16sp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aspiring Mobile Developer | Android Enthusiast | Kolkata, India 🇮🇳&#10;Passionate about building intelligent apps that blend technology with nature.&#10;Creator of PlantDoctor – a smart plant care app.&#10;Skilled in Kotlin, Python &amp; AI tools."
+                    android:layout_marginTop="0dp"
+                    android:textSize="12sp"
+                    android:textColor="#FF4081"
+                    android:fontFamily="monospace" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📍 Location: Kolkata, India"
+                    android:layout_marginTop="8dp"
+                    android:textSize="12sp"
+                    android:textColor="#FF4081"
+                    android:fontFamily="monospace" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📧 Email: djjitu2002@gmail.com"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12sp"
+                    android:textColor="#FF4081"
+                    android:fontFamily="monospace" />
+
+                <TextView
+                    android:id="@+id/githubLink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🐙 View on GitHub"
+                    android:textSize="12sp"
+                    android:textColor="#0D87E0"
+                    android:textStyle="bold"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="monospace" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Copyright Footer -->
+        <TextView
+            android:id="@+id/copyrightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© All rights reserved to Arijit Gupta"
+            android:textColor="#4CAF50"
+            android:textSize="14sp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="monospace" />
+
+    </LinearLayout>
+</ScrollView>
